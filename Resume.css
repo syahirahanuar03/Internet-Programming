@@ -1,0 +1,164 @@
+<style>
+	head
+	{
+		
+	}
+	body 
+	{
+		background-color: #FFEED8;
+	}	
+	div.navbar
+	{
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #65350F;
+		font-family: Calibri;
+		position:sticky;
+		top:0;
+	}
+	div.navbar a
+	{
+		display:inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		
+	}
+	div.navbar a:hover:not(.active)
+	{
+		background-color: #111;
+	}
+	.active 
+	{
+		background-color: #FFC300;
+	}
+	#header1
+	{
+		background: #65350F;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		color: #FFEED8;
+		font-family: Calibri;
+	}
+	div.mypic 
+	{
+		float: left;
+		width: 150px;
+		margin: 3px;
+		padding: 3px;
+		border: 1px solid #A979E7;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		opacity: 0.8;
+		cursor: pointer;
+	}
+	div.mypic:hover
+	{
+		opacity: 1;
+	}
+	div.tel
+	{
+		color: #FFEED8;
+		padding: 2px;
+		text-align: center;
+		display: inline-block;
+		border-radius: 5px;
+		font-style: italic;
+	}
+	div.tel:hover
+	{
+		background-color: #FFC300;
+	}
+	div.email
+	{
+		color: #FFEED8;
+		padding: 2px;
+		text-align: center;
+		display: inline-block;
+		border-radius: 5px;
+		font-style: italic;
+	}
+	div.email:hover
+	{
+		background-color: #FFC300;
+	}
+	#table1
+	{
+		width:100%;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	section
+	{
+		font-family: Calibri;
+		font-size: 16px;
+		text-align: justify;
+		text-justify: inter-word;
+		padding: 20px;
+	}
+	ul
+	{
+		list-style-type: none;
+	}
+	li:before
+	{
+		content: 'done';
+		font-family: 'Material Icons';
+	}
+    .gfg
+	{
+        list-style-type:none;
+    }
+          
+	/* Adding icon before each list icon */
+	
+	ul.gfg > li:before
+	{
+		content: 'done';
+		font-family: 'Material Icons';
+		font-size: 20px;
+		vertical-align: -30%;
+		color: #A54000;
+	}	
+	h1 
+	{
+		font-size: 30px;
+		text-align: center;
+		text-justify: inter-word;
+		line-height: 1;
+	}
+	h2
+	{
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: #FFC300;
+		border-radius: 10px;
+	}
+	h3
+	{
+		font-size: 18px;
+		text-transform: uppercase;		
+	}
+	h4
+	{
+		font-size: 20px;
+		color:#FFC300;
+		text-transform: uppercase;
+		line-height: 1;
+		background: #A54000;
+		display: inline;
+		border-radius: 3px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	p.p1
+	{
+		padding: 15px;
+		border-radius: 20px;
+		line-height: 1.5;
+	}
+	
+</style>
